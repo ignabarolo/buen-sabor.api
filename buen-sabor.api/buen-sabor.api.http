@@ -1,0 +1,6 @@
+@buen_sabor.api_HostAddress = http://localhost:5244
+
+GET {{buen_sabor.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7ekEYFioLBdrTHguKf20E0mgAuOPdvPM3EHlBHokHFY=",
+  "Source": "buen-sabor.api",
+  "BasePath": "_content/buen-sabor.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
