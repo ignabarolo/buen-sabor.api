@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api.csproj": {}
+    "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api\\buen-sabor.api.csproj": {}
   },
   "projects": {
-    "E:\\Proyectos\\Application\\Application.csproj": {
+    "E:\\Proyectos\\buen-sabor.api\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\Proyectos\\buen-sabor.api\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\Proyectos\\Application\\Application.csproj",
+        "projectPath": "E:\\Proyectos\\buen-sabor.api\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\barol\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\Application\\obj\\",
+        "outputPath": "E:\\Proyectos\\buen-sabor.api\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Proyectos\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\Proyectos\\Domain\\Domain.csproj"
+              "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api.csproj": {
+    "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api\\buen-sabor.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api.csproj",
+        "projectUniqueName": "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api\\buen-sabor.api.csproj",
         "projectName": "buen-sabor.api",
-        "projectPath": "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api.csproj",
+        "projectPath": "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api\\buen-sabor.api.csproj",
         "packagesPath": "C:\\Users\\barol\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\buen-sabor.api\\obj\\",
+        "outputPath": "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -110,11 +110,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Proyectos\\Application\\Application.csproj": {
-                "projectPath": "E:\\Proyectos\\Application\\Application.csproj"
+              "E:\\Proyectos\\buen-sabor.api\\Application\\Application.csproj": {
+                "projectPath": "E:\\Proyectos\\buen-sabor.api\\Application\\Application.csproj"
               },
-              "E:\\Proyectos\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "E:\\Proyectos\\Infrastructure\\Infrastructure.csproj"
+              "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -184,14 +184,14 @@
         }
       }
     },
-    "E:\\Proyectos\\Domain\\Domain.csproj": {
+    "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\Proyectos\\Domain\\Domain.csproj",
+        "projectPath": "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\barol\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\Domain\\obj\\",
+        "outputPath": "E:\\Proyectos\\buen-sabor.api\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,14 +244,14 @@
         }
       }
     },
-    "E:\\Proyectos\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\Proyectos\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\barol\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\Infrastructure\\obj\\",
+        "outputPath": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -268,8 +268,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Proyectos\\Application\\Application.csproj": {
-                "projectPath": "E:\\Proyectos\\Application\\Application.csproj"
+              "E:\\Proyectos\\buen-sabor.api\\Application\\Application.csproj": {
+                "projectPath": "E:\\Proyectos\\buen-sabor.api\\Application\\Application.csproj"
               }
             }
           }

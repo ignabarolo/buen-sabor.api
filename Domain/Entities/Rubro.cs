@@ -1,6 +1,12 @@
-﻿namespace buen_sabor.api.Entities
+﻿using Domain.Common;
+
+namespace buen_sabor.api.Entities;
+
+public class Rubro : BaseEntity 
 {
-    public class Rubro
-    {
-    }
+    public string Nombre { get; set; }
+
+    public virtual ICollection<Manufacturado> Manufacturados { get; set; }
+
+    public virtual ICollection<Articulo> Articulos { get; set; }
 }

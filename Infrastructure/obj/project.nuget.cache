@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XiySj12wwa66ssaCHFjwkqemvqEMaiPujy9UstoqYXeUc58JxJ8ZUM75NdVZ1f+sSMtsRZHEC/XyfK+SVXJy3Q==",
+  "dgSpecHash": "gDraDQGaRpq6T6lu9Kttfr2Z+VeHe2rB4eCfSLjc1cGA4p8P9kh9G4Q1JBNdT+AcvZQxfTuSHxe6TOjiAUQe/w==",
   "success": true,
-  "projectFilePath": "E:\\Proyectos\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barol\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",

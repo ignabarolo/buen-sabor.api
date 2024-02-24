@@ -1,6 +1,16 @@
-﻿namespace buen_sabor.api.Entities
+﻿using Domain.Common;
+
+namespace buen_sabor.api.Entities;
+
+public class Manufacturado : BaseEntity
 {
-    public class Manufacturado
-    {
-    }
+    public string Descripcion { get; set; }
+
+    public DateTime TiempoPreparacion { get; set; }
+    
+    public Guid RubroId { get; set; }
+
+    public virtual Rubro Rubro { get; set; }
+
+    public virtual ICollection<DetalleManufacturado> DetallesManufacturado { get; set; }
 }
