@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("buen-sabor.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1f98b50889c8b89e841dad8a3c7d17d312f65e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("buen-sabor.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("buen-sabor.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyectos\\Domain\\Domain.csproj": {}
+    "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "E:\\Proyectos\\Domain\\Domain.csproj": {
+    "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\Proyectos\\Domain\\Domain.csproj",
+        "projectPath": "E:\\Proyectos\\buen-sabor.api\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\barol\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\Domain\\obj\\",
+        "outputPath": "E:\\Proyectos\\buen-sabor.api\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barol\\AppData\\Roaming\\NuGet\\NuGet.Config",
