@@ -3,4 +3,4 @@
 
 
 ## TABLERO JIRA: 
-https://baroloignacio.atlassian.net/jira/software/projects/KAN/boards/1
+- https://baroloignacio.atlassian.net/jira/software/projects/KAN/boards/1
