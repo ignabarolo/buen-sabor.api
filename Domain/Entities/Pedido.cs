@@ -11,11 +11,15 @@ public class Pedido : BaseEntity
     
     public int Descuento { get; set; }
     
-    public Guid ClienteId { get; set; }
+    public Guid UsuarioId { get; set; }
 
-    public virtual Usuario Cliente { get; set; }
+    public virtual Usuario Usuario { get; set; }
 
-    public virtual ICollection<DetallePedido> DetallesPedido { get; set; }
+    public virtual ICollection<DetallePedido> DetallesPedidos { get; set; }
+
+    public virtual Efectivo Efectivo { get; set; }
+
+    public virtual MercadoPago MercadoPago { get; set; }
 
     public Estado Estado { get; set; }
 }
