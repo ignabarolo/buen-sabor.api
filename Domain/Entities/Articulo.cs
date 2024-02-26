@@ -13,10 +13,14 @@ public class Articulo : BaseEntity
     public Guid DetallePedidoId { get; set; }
 
     public virtual DetallePedido DetallePedido { get; set; }
+    
+    public Guid DetalleManufacturadoId { get; set; }
+
+    public virtual DetalleManufacturado DetalleManufacturado { get; set; }
 
     public Guid RubroId { get; set; }
 
     public virtual Rubro Rubro { get; set; }
 
-    public virtual ICollection<CompraArticulo> CompraArticulo { get; set; }
+    public virtual ICollection<CompraArticulo> CompraArticulos { get; set; }
 }

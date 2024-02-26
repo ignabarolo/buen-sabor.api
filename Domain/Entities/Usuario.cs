@@ -13,9 +13,9 @@ public class Usuario : BaseEntity
     
     public string Email { get; set; }
 
-    public Guid DomicilioId { get; set; }
-
     public ICollection<Domicilio> Domicilios { get; set; }
+
+    public ICollection<Pedido> Pedido { get; set; }
 
     public Rol Rol { get; set; }
 }
