@@ -12,5 +12,7 @@ public class Manufacturado : BaseEntity
 
     public virtual Rubro Rubro { get; set; }
 
+    public virtual DetallePedido DetallePedido { get; set; }
+
     public virtual ICollection<DetalleManufacturado> DetallesManufacturado { get; set; }
 }
