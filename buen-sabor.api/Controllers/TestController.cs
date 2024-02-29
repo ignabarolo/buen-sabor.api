@@ -1,5 +1,6 @@
 ﻿using Application.Common.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace buen_sabor.api.Controllers
@@ -21,11 +22,12 @@ namespace buen_sabor.api.Controllers
             return Ok();
         }
         
-        [HttpGet("Domicilio")]
+        [HttpGet("Domicilio/{id}")]
         [SwaggerOperation(Summary = "Test Domicilio Table.")]
-        public async Task<ActionResult> TestDomicilio()
+        public async Task<ActionResult> TestDomicilio(Guid id)
         {
-            var result = _context.Domicilio.Where(w => w.Id == Guid.Parse("6e5fda37-4e40-47f4-b021-ed7573322d77"));
+            //var result = _context.Domicilio.Where(w => w.Id == Guid.Parse("6e5fda37-4e40-47f4-b021-ed7573322d77"));
+            var result = _context.Domicilio.Where(w => w.Id == id).AsNoTracking().FirstOrDefaultAsync().Result;
             return Ok(result);
         }
     }
