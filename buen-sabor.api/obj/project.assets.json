@@ -689,6 +689,15 @@
           }
         }
       },
+      "ModelMapper/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModelMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModelMapper.dll": {}
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -2359,7 +2368,8 @@
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "MediatR": "12.2.0",
-          "Microsoft.EntityFrameworkCore": "8.0.2"
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "ModelMapper": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -3787,6 +3797,18 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "ModelMapper/1.0.0": {
+      "sha512": "0uP3xRcLQA0cryQioS/NFefDI4UdD8D8wmTy8jGzxcKOv3dTamz9MM2a2fHNwHF4Il/aN70AfFNTJ66LcZUFyg==",
+      "type": "package",
+      "path": "modelmapper/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/ModelMapper.dll",
+        "modelmapper.1.0.0.nupkg.sha512",
+        "modelmapper.nuspec"
       ]
     },
     "Mono.TextTemplating/2.2.1": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8Lb3yEcEbIJWVj/ppxGNFmqPlH9lor4hXmlBIptm9rey1RPxyvDEH9kcNOuRsIjYyfF4NPGKvNuz0hIcI27l0g==",
+  "dgSpecHash": "7Bdj2Li12Mzwga98oXgwOf3FXkt5XUx0f19oeS+ekTWWqZ+HfdUvBlnRydkUs1Te+RlbPVfBF/K2fWQkC0Sn0g==",
   "success": true,
   "projectFilePath": "E:\\Proyectos\\buen-sabor.api\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,8 @@
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\barol\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\barol\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\barol\\.nuget\\packages\\modelmapper\\1.0.0\\modelmapper.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }
