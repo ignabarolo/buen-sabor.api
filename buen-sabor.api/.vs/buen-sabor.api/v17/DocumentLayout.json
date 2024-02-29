@@ -1,7 +1,29 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160749_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160728_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9D3268-B52A-4777-B1C4-9A5419E03785}|..\\Infrastructure\\Infrastructure.csproj|e:\\proyectos\\buen-sabor.api\\infrastructure\\migrations\\appdb\\20240229153855_20240229.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9D3268-B52A-4777-B1C4-9A5419E03785}|..\\Infrastructure\\Infrastructure.csproj|e:\\proyectos\\buen-sabor.api\\infrastructure\\migrations\\appdb\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160640_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79E74A9-35FD-47A0-94AF-BA92E2436371}|..\\Domain\\Domain.csproj|e:\\proyectos\\buen-sabor.api\\domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79E74A9-35FD-47A0-94AF-BA92E2436371}|..\\Domain\\Domain.csproj|e:\\proyectos\\buen-sabor.api\\domain\\entities\\manufacturado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +31,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240229160749_test.cs",
+              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160749_test.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\AppDb\\20240229160749_test.cs",
+              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160749_test.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\AppDb\\20240229160749_test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:07:49.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240229160728_test.cs",
+              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160728_test.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\AppDb\\20240229160728_test.cs",
+              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160728_test.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\AppDb\\20240229160728_test.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:07:28.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240229160640_test.cs",
+              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160640_test.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\AppDb\\20240229160640_test.cs",
+              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229160640_test.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\AppDb\\20240229160640_test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:06:40.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDBContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\AppDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\AppDb\\AppDBContextModelSnapshot.cs",
+              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\AppDBContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\AppDb\\AppDBContextModelSnapshot.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAgwDIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:04:31.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240229153855_20240229.cs",
+              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229153855_20240229.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\AppDb\\20240229153855_20240229.cs",
+              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240229153855_20240229.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\AppDb\\20240229153855_20240229.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAACoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:02:48.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Manufacturado.cs",
+              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Domain\\Entities\\Manufacturado.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Manufacturado.cs",
+              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Domain\\Entities\\Manufacturado.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Manufacturado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T15:45:07.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Domain\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Pedido.cs",
+              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Domain\\Entities\\Pedido.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T15:44:45.669Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"

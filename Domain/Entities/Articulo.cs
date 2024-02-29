@@ -14,8 +14,6 @@ public class Articulo : BaseEntity
 
     public virtual DetallePedido DetallePedido { get; set; }
     
-    public Guid DetalleManufacturadoId { get; set; }
-
     public virtual DetalleManufacturado DetalleManufacturado { get; set; }
 
     public Guid RubroId { get; set; }

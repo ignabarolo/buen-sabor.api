@@ -6,7 +6,7 @@ public class Manufacturado : BaseEntity
 {
     public string Descripcion { get; set; }
 
-    public DateTime TiempoPreparacion { get; set; }
+    public TimeOnly TiempoPreparacion { get; set; }
     
     public Guid RubroId { get; set; }
 

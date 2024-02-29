@@ -14,10 +14,10 @@ public class DetalleManufacturadoConfiguration : _BaseConfiguration<DetalleManuf
         builder.Property(p => p.Creado).IsRequired();
         builder.Property(p => p.Modificado).IsRequired();
 
-        builder.HasOne(detalleM => detalleM.Articulo)
-            .WithOne(articulo => articulo.DetalleManufacturado)
-            .HasForeignKey<Articulo>(h => h.DetalleManufacturadoId)
-            .IsRequired(false);
+        //builder.HasOne(detalleM => detalleM.Articulo)
+        //    .WithOne(articulo => articulo.DetalleManufacturado)
+        //    .HasForeignKey<Articulo>(h => h.DetalleManufacturadoId)
+        //    .IsRequired(false);
 
         builder.HasOne(detalleM => detalleM.Manufacturado)
             .WithMany(manufacturado => manufacturado.DetallesManufacturado)

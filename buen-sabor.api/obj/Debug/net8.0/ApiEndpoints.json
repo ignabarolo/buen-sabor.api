@@ -2,11 +2,17 @@
   {
     "ContainingType": "buen_sabor.api.Controllers.TestController",
     "Method": "TestDomicilio",
-    "RelativePath": "Domicilio",
+    "RelativePath": "Domicilio/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
