@@ -35,9 +35,6 @@ namespace Infrastructure.Migrations.AppDb
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid>("DetalleManufacturadoId")
-                        .HasColumnType("uuid");
-
                     b.Property<Guid>("DetallePedidoId")
                         .HasColumnType("uuid");
 
@@ -56,14 +53,11 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DetalleManufacturadoId")
-                        .IsUnique();
-
                     b.HasIndex("DetallePedidoId");
 
                     b.HasIndex("RubroId");
 
-                    b.ToTable("Articulo");
+                    b.ToTable("Articulo", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.CompraArticulo", b =>
@@ -91,7 +85,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("ArticuloId");
 
-                    b.ToTable("CompraArticulo");
+                    b.ToTable("CompraArticulo", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.DetalleManufacturado", b =>
@@ -117,9 +111,12 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ArticuloId")
+                        .IsUnique();
+
                     b.HasIndex("ManufacturadoId");
 
-                    b.ToTable("DetalleManufacturado");
+                    b.ToTable("DetalleManufacturado", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.DetallePedido", b =>
@@ -150,7 +147,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("PedidoId");
 
-                    b.ToTable("DetallePedido");
+                    b.ToTable("DetallePedido", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Domicilio", b =>
@@ -183,7 +180,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Domicilio");
+                    b.ToTable("Domicilio", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Efectivo", b =>
@@ -209,7 +206,7 @@ namespace Infrastructure.Migrations.AppDb
                     b.HasIndex("PedidoId")
                         .IsUnique();
 
-                    b.ToTable("Efectivo");
+                    b.ToTable("Efectivo", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Manufacturado", b =>
@@ -231,14 +228,14 @@ namespace Infrastructure.Migrations.AppDb
                     b.Property<Guid>("RubroId")
                         .HasColumnType("uuid");
 
-                    b.Property<DateTime>("TiempoPreparacion")
-                        .HasColumnType("timestamp without time zone");
+                    b.Property<TimeOnly>("TiempoPreparacion")
+                        .HasColumnType("time without time zone");
 
                     b.HasKey("Id");
 
                     b.HasIndex("RubroId");
 
-                    b.ToTable("Manufacturado");
+                    b.ToTable("Manufacturado", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.MercadoPago", b =>
@@ -284,7 +281,7 @@ namespace Infrastructure.Migrations.AppDb
                     b.HasIndex("PedidoId")
                         .IsUnique();
 
-                    b.ToTable("MercadoPago");
+                    b.ToTable("MercadoPago", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Pedido", b =>
@@ -318,7 +315,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Pedido");
+                    b.ToTable("Pedido", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Rubro", b =>
@@ -339,7 +336,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasKey("Id");
 
-                    b.ToTable("Rubro");
+                    b.ToTable("Rubro", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Usuario", b =>
@@ -375,15 +372,11 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuario");
+                    b.ToTable("Usuario", (string)null);
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Articulo", b =>
                 {
-                    b.HasOne("buen_sabor.api.Entities.DetalleManufacturado", "DetalleManufacturado")
-                        .WithOne("Articulo")
-                        .HasForeignKey("buen_sabor.api.Entities.Articulo", "DetalleManufacturadoId");
-
                     b.HasOne("buen_sabor.api.Entities.DetallePedido", "DetallePedido")
                         .WithMany("Articulos")
                         .HasForeignKey("DetallePedidoId")
@@ -393,8 +386,6 @@ namespace Infrastructure.Migrations.AppDb
                         .WithMany("Articulos")
                         .HasForeignKey("RubroId")
                         .IsRequired();
-
-                    b.Navigation("DetalleManufacturado");
 
                     b.Navigation("DetallePedido");
 
@@ -413,10 +404,18 @@ namespace Infrastructure.Migrations.AppDb
 
             modelBuilder.Entity("buen_sabor.api.Entities.DetalleManufacturado", b =>
                 {
+                    b.HasOne("buen_sabor.api.Entities.Articulo", "Articulo")
+                        .WithOne("DetalleManufacturado")
+                        .HasForeignKey("buen_sabor.api.Entities.DetalleManufacturado", "ArticuloId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("buen_sabor.api.Entities.Manufacturado", "Manufacturado")
                         .WithMany("DetallesManufacturado")
                         .HasForeignKey("ManufacturadoId")
                         .IsRequired();
+
+                    b.Navigation("Articulo");
 
                     b.Navigation("Manufacturado");
                 });
@@ -488,11 +487,8 @@ namespace Infrastructure.Migrations.AppDb
             modelBuilder.Entity("buen_sabor.api.Entities.Articulo", b =>
                 {
                     b.Navigation("CompraArticulos");
-                });
 
-            modelBuilder.Entity("buen_sabor.api.Entities.DetalleManufacturado", b =>
-                {
-                    b.Navigation("Articulo")
+                    b.Navigation("DetalleManufacturado")
                         .IsRequired();
                 });
 
