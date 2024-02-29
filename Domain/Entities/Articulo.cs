@@ -6,6 +6,8 @@ public class Articulo : BaseEntity
 {
     public string Descripcion { get; set; }
 
+    public string Descripcion2 { get; set; }
+
     public string UnidadMedida { get; set; }
 
     public int Stock { get; set; }
