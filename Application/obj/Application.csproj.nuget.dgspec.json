@@ -64,6 +64,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "ModelMapper": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

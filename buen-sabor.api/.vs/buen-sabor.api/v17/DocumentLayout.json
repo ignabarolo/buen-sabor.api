@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C79E74A9-35FD-47A0-94AF-BA92E2436371}|..\\Domain\\Domain.csproj|e:\\proyectos\\buen-sabor.api\\domain\\entities\\domicilio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9D3268-B52A-4777-B1C4-9A5419E03785}|..\\Infrastructure\\Infrastructure.csproj|e:\\proyectos\\buen-sabor.api\\infrastructure\\persistence\\configurations\\domicilioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C79E74A9-35FD-47A0-94AF-BA92E2436371}|..\\Domain\\Domain.csproj|e:\\proyectos\\buen-sabor.api\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240226130925_20240226.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,63 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240226130925_20240226.cs",
-              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240226130925_20240226.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\AppDb\\20240226130925_20240226.cs",
-              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Migrations\\AppDb\\20240226130925_20240226.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Migrations\\AppDb\\20240226130925_20240226.cs",
-              "ViewState": "AQIAAOgAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T13:09:25.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Domain\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Usuario.cs",
-              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Domain\\Entities\\Usuario.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\Usuario.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwA8AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T19:23:47.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Domicilio.cs",
-              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Domain\\Entities\\Domicilio.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Domicilio.cs",
-              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Domain\\Entities\\Domicilio.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\Domicilio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T19:22:48.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DomicilioConfiguration.cs",
-              "DocumentMoniker": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Persistence\\Configurations\\DomicilioConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\DomicilioConfiguration.cs",
-              "ToolTip": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Persistence\\Configurations\\DomicilioConfiguration.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Persistence\\Configurations\\DomicilioConfiguration.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABAAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T19:22:31.043Z",
-              "EditorCaption": ""
             }
           ]
         }

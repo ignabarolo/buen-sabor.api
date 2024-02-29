@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gDraDQGaRpq6T6lu9Kttfr2Z+VeHe2rB4eCfSLjc1cGA4p8P9kh9G4Q1JBNdT+AcvZQxfTuSHxe6TOjiAUQe/w==",
+  "dgSpecHash": "ZT/rFmYdtkP6clz8wuphhumcQllkjdQgQurhwOzM0KzUBtPRWxHcx378v4py9o+oRmQYve/Ny4RW8zkvum8iLw==",
   "success": true,
   "projectFilePath": "E:\\Proyectos\\buen-sabor.api\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\barol\\.nuget\\packages\\modelmapper\\1.0.0\\modelmapper.1.0.0.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",

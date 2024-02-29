@@ -146,6 +146,7 @@ E:\Proyectos\buen-sabor.api\buen-sabor.api\bin\Debug\net8.0\Microsoft.EntityFram
 E:\Proyectos\buen-sabor.api\buen-sabor.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 E:\Proyectos\buen-sabor.api\buen-sabor.api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 E:\Proyectos\buen-sabor.api\buen-sabor.api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Proyectos\buen-sabor.api\buen-sabor.api\bin\Debug\net8.0\ModelMapper.dll
 E:\Proyectos\buen-sabor.api\buen-sabor.api\bin\Debug\net8.0\Mono.TextTemplating.dll
 E:\Proyectos\buen-sabor.api\buen-sabor.api\bin\Debug\net8.0\Npgsql.dll
 E:\Proyectos\buen-sabor.api\buen-sabor.api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

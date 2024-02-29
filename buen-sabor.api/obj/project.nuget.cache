@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LYQCuqOzOI6TeTnuD3RScSWEpJ+l/wA54W0445gXe8Ux9T32Id1mcA8RYUJDRdX0ZvYcfIIH3Wsj4Px9C6I57w==",
+  "dgSpecHash": "HxwBVvf2+5Rd6GChMy1o/ZNydgAyRFciY4lJ2tVVLYnkJ6LpL+VUi0N/RGl477X1uayWIHHxDHEZi7q/8cfsxA==",
   "success": true,
   "projectFilePath": "E:\\Proyectos\\buen-sabor.api\\buen-sabor.api\\buen-sabor.api.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\barol\\.nuget\\packages\\modelmapper\\1.0.0\\modelmapper.1.0.0.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\barol\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",

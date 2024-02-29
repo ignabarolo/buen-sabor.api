@@ -435,6 +435,14 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "ModelMapper/1.0.0": {
+        "runtime": {
+          "lib/net6.0/ModelMapper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -1292,7 +1300,8 @@
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "MediatR": "12.2.0",
-          "Microsoft.EntityFrameworkCore": "8.0.2"
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "ModelMapper": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
@@ -1552,6 +1561,13 @@
       "sha512": "sha512-9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "path": "microsoft.win32.primitives/4.3.0",
       "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
+    },
+    "ModelMapper/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0uP3xRcLQA0cryQioS/NFefDI4UdD8D8wmTy8jGzxcKOv3dTamz9MM2a2fHNwHF4Il/aN70AfFNTJ66LcZUFyg==",
+      "path": "modelmapper/1.0.0",
+      "hashPath": "modelmapper.1.0.0.nupkg.sha512"
     },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",
