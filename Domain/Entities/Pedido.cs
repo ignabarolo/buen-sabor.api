@@ -5,7 +5,7 @@ namespace buen_sabor.api.Entities;
 
 public class Pedido : BaseEntity
 {
-    public DateTime HoraEstimada { get; set; }
+    public TimeSpan HoraEstimada { get; set; }
 
     public bool Retirolocal { get; set; }
     

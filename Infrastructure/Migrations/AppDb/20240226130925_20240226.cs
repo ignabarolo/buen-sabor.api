@@ -208,7 +208,7 @@ namespace Infrastructure.Migrations.AppDb
                     Descripcion = table.Column<string>(type: "text", nullable: false),
                     UnidadMedida = table.Column<string>(type: "text", nullable: false),
                     Stock = table.Column<int>(type: "integer", nullable: false),
-                    DetallePedidoId = table.Column<Guid>(type: "uuid", nullable: false),
+                    DetallePedidoId = table.Column<Guid>(type: "uuid", nullable: true),
                     DetalleManufacturadoId = table.Column<Guid>(type: "uuid", nullable: false),
                     RubroId = table.Column<Guid>(type: "uuid", nullable: false),
                     Creado = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),

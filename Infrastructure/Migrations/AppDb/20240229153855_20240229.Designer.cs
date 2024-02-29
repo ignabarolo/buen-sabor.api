@@ -3,6 +3,7 @@ using System;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infrastructure.Migrations.AppDb
 {
     [DbContext(typeof(AppDBContext))]
-    partial class AppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20240229153855_20240229")]
+    partial class _20240229
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -57,7 +60,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("RubroId");
 
-                    b.ToTable("Articulo", (string)null);
+                    b.ToTable("Articulo");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.CompraArticulo", b =>
@@ -85,7 +88,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("ArticuloId");
 
-                    b.ToTable("CompraArticulo", (string)null);
+                    b.ToTable("CompraArticulo");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.DetalleManufacturado", b =>
@@ -116,7 +119,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("ManufacturadoId");
 
-                    b.ToTable("DetalleManufacturado", (string)null);
+                    b.ToTable("DetalleManufacturado");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.DetallePedido", b =>
@@ -147,7 +150,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("PedidoId");
 
-                    b.ToTable("DetallePedido", (string)null);
+                    b.ToTable("DetallePedido");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Domicilio", b =>
@@ -180,7 +183,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Domicilio", (string)null);
+                    b.ToTable("Domicilio");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Efectivo", b =>
@@ -206,7 +209,7 @@ namespace Infrastructure.Migrations.AppDb
                     b.HasIndex("PedidoId")
                         .IsUnique();
 
-                    b.ToTable("Efectivo", (string)null);
+                    b.ToTable("Efectivo");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Manufacturado", b =>
@@ -235,7 +238,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("RubroId");
 
-                    b.ToTable("Manufacturado", (string)null);
+                    b.ToTable("Manufacturado");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.MercadoPago", b =>
@@ -281,7 +284,7 @@ namespace Infrastructure.Migrations.AppDb
                     b.HasIndex("PedidoId")
                         .IsUnique();
 
-                    b.ToTable("MercadoPago", (string)null);
+                    b.ToTable("MercadoPago");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Pedido", b =>
@@ -315,7 +318,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Pedido", (string)null);
+                    b.ToTable("Pedido");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Rubro", b =>
@@ -336,7 +339,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasKey("Id");
 
-                    b.ToTable("Rubro", (string)null);
+                    b.ToTable("Rubro");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Usuario", b =>
@@ -372,7 +375,7 @@ namespace Infrastructure.Migrations.AppDb
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuario", (string)null);
+                    b.ToTable("Usuario");
                 });
 
             modelBuilder.Entity("buen_sabor.api.Entities.Articulo", b =>
