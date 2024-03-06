@@ -1,34 +1,46 @@
 ﻿using Application.Common.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace buen_sabor.api.Controllers
+namespace buen_sabor.api.Controllers;
+
+[SwaggerResponse(200, "Success")]
+[SwaggerResponse(404, "Not found")]
+[SwaggerResponse(401, "Token required")]
+[SwaggerResponse(500, "Internal error")]
+public class TestController : ApiController
 {
-    public class TestController : Controller
+    private readonly IAppDBContext _context;
+
+    public TestController(IAppDBContext context)
     {
-        private readonly IAppDBContext _context;
-
-        public TestController(IAppDBContext context)
-        {
-            _context = context;
-        }
-
-        [HttpGet("Test")]
-        [SwaggerOperation(Summary = "Test Connection to DataBase.")]
-        public async Task<ActionResult> TestDataBase()
-        {
-            var result = _context.GetVersion();
-            return Ok();
-        }
-        
-        [HttpGet("Domicilio/{id}")]
-        [SwaggerOperation(Summary = "Test Domicilio Table.")]
-        public async Task<ActionResult> TestDomicilio(Guid id)
-        {
-            //var result = _context.Domicilio.Where(w => w.Id == Guid.Parse("6e5fda37-4e40-47f4-b021-ed7573322d77"));
-            var result = _context.Domicilio.Where(w => w.Id == id).AsNoTracking().FirstOrDefaultAsync().Result;
-            return Ok(result);
-        }
+        _context = context;
     }
+
+    [HttpGet("200")]
+    public ActionResult t200() => Ok();
+
+    [HttpGet("500")]
+    public ActionResult t500() => throw new Exception("Exception de test");
+
+
+    [HttpGet("401")]
+    public ActionResult t401() => Unauthorized();
+
+
+    [HttpGet("404")]
+    public ActionResult t404() => NotFound();
+
+    [HttpGet("405")]
+    public ActionResult t405() => BadRequest();
+
+    [HttpGet("TestVersionDataBase")]
+    [SwaggerOperation(Summary = "Test Connection to DataBase.")]
+    public ActionResult TestVersionDataBase()
+    {
+        var result = _context.GetVersion();
+        return Ok();
+    }
+    
+   
 }

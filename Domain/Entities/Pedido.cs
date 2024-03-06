@@ -1,5 +1,5 @@
 ﻿using buen_sabor.api.Enums;
-using Domain.Common;
+using Domain.Entities;
 
 namespace buen_sabor.api.Entities;
 

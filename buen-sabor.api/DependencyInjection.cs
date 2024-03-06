@@ -1,4 +1,7 @@
-﻿namespace Infrastructure;
+﻿
+using Microsoft.OpenApi.Models;
+
+namespace Infrastructure;
 
 public static class DependencyInjection
 {
@@ -7,6 +10,7 @@ public static class DependencyInjection
         services.AddControllers();
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
+        services.AddSignalR();
 
         return services;
     }
